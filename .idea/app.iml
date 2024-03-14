@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/www/command" isTestSource="false" packagePrefix="Fifa\ConnectId\Command\" />
+      <sourceFolder url="file://$MODULE_DIR$/www/lib/FifaConnectServiceBusSdk/src" isTestSource="false" packagePrefix="Fifa\ConnectServiceBus\Sdk\" />
+      <sourceFolder url="file://$MODULE_DIR$/www/src" isTestSource="false" packagePrefix="Fifa\ConnectId\Sdk\" />
+      <sourceFolder url="file://$MODULE_DIR$/www/tests" isTestSource="false" packagePrefix="Fifa\ConnectId\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/www/fifa" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/pear/console_getopt" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/pear/pear-core-minimal" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/pear/xml_parser" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/pear/xml_serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/pear/xml_util" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
