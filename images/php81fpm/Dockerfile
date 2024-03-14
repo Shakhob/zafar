@@ -8,8 +8,14 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 WORKDIR /var/www
 
+# Устанавливаем пользователю www-data UID и GID равные 1000
 RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
-USER "1000:1000"
+# Копируем скрипт в контейнер
+COPY init.sh /usr/local/bin/init.sh
 
-ENTRYPOINT [ "php-fpm" ]
+# Даем права на выполнение скрипта
+RUN chmod +x /usr/local/bin/init.sh
+
+# Используем скрипт как точку входа в контейнер
+ENTRYPOINT ["/usr/local/bin/init.sh"]
